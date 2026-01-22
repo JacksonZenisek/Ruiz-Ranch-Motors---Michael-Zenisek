@@ -1,0 +1,1030 @@
+div.main_contact_content_container{
+    height:1600px;
+    width:auto;
+    border:1px solid transparent;
+    margin:-8px;
+}
+
+body.main_home_body{
+    background-color:white;
+}
+
+header.main_home_header_container{
+    height:300px;
+    width:auto;
+    border:1px solid transparent;
+    margin:-8px;
+    background-color:black;
+}
+
+div.inner_header_container{
+    height:200px;
+    width:1200px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.main_headinglog_container{
+    height:200px;
+    width:200px;
+    border:1px solid transparent;
+}
+
+button.page_ref_button{
+    height:200px;
+    width:200px;
+    background-color:transparent;
+    text-align:center;
+    transition:0.5s;
+    border:1px solid transparent;
+}
+
+button.page_ref_button:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+img.home_main_log{
+    height:200px;
+    width:200px;
+}
+
+div.main_headingname_container{
+    height:150px;
+    width:900px;
+    border:1px solid transparent;
+    float:right;
+    margin-right:50px;
+    margin-top:-175px;
+}
+
+h1.main_name_heading{
+    font-size:75px;
+    color:rgb(255, 255, 26);
+    font-family:'Times New Roman', Times, serif;
+}
+
+div.main_homecontent_container{
+    height:2000px;
+    width:auto;
+    border:1px solid green;
+    margin:-8px;
+}
+
+footer.all_pages_footer{
+    height:200px;
+    width:auto;
+    margin:-8px;
+    border:1px solid transparent;
+}
+
+div.footer_info_container{
+    height:200px;
+    width:500px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    text-align:center;
+}
+
+div.menu_selection_container{
+    height:100px;
+    width:1200px;
+    border: 1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+button.home_button{
+    height:100px;
+    width:125px;
+    background-color:transparent;
+    color:white;
+    border:1px solid transparent;
+    font-size:30px;
+    transition:0.5s;
+}
+
+button.home_button:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+button.listings_button{
+    height:100px;
+    width:125px;
+    background-color:transparent;
+    color:white;
+    border:1px solid transparent;
+    font-size:30px;
+    transition:0.5s;
+    margin-left:200px;
+}
+
+button.listings_button:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+button.contactme_button{
+    height:100px;
+    width:175px;
+    background-color:transparent;
+    color:white;
+    border:1px solid transparent;
+    font-size:30px;
+    transition:0.5s;
+    margin-left:200px;
+}
+
+button.contactme_button:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+button.links_button{
+    height:100px;
+    width:150px;
+    background-color:transparent;
+    color:white;
+    border:1px solid transparent;
+    font-size:30px;
+    transition:0.5s;
+    float:right;
+}
+
+button.links_button:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+p.footer_info_para{
+    font-size:30px;
+}
+
+div.contactformheadingcontainer{
+    height:150px;
+    width:1300px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:100px;
+}
+
+h3.contactformheading{
+    font-size:50px;
+    text-align:center;
+}
+
+div.main_form_outer_container{
+    height:1200px;
+    width:1800px;
+    border:3px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.fname_container{
+    height:150px;
+    width:500px;
+    border:1px solid transparent;
+}
+
+label.fname_lab{
+    font-size:25px;
+}
+
+input.fname_in{
+    font-size:25px;
+    color:black;
+    width:400px;
+    border-radius:5px;
+    border:1px solid black;
+    transition:0.5s;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input.fname_in:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+div.lname_container{
+    height:150px;
+    width:500px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:-152px;
+}
+
+label.lname_lab{
+    font-size:25px;
+}
+
+input.lname_in{
+    font-size:25px;
+    color:black;
+    width:400px;
+    border-radius:5px;
+    border:1px solid black;
+    transition:0.5s;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input.lname_in:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+div.phonenumber_container{
+    height:150px;
+    width:500px;
+    border:1px solid transparent;
+    float:right;
+    margin-top:-152px;
+}
+
+label.phone_lab{
+    font-size:25px;
+}
+
+input.phone_in{
+    font-size:25px;
+    color:black;
+    width:200px;
+    border-radius:5px;
+    border:1px solid black;
+    transition:0.5s;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input.phone_in:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+div.email_container{
+    height:150px;
+    width:500px;
+    border:1px solid transparent;
+    margin-top:20px;
+}
+
+label.email_label{
+    font-size:25px;
+}
+
+input.email_in{
+    font-size:25px;
+    color:black;
+    width:400px;
+    border-radius:5px;
+    border:1px solid black;
+    transition:0.5s;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input.email_in:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+div.cartype_container{
+    height:150px;
+    width:500px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:-152px;
+}
+
+label.cartype_lab{
+    font-size:25px;
+}
+
+select.choosecar_selection{
+    height:50px;
+    width:400px;
+    font-size:25px;
+    color:black;
+}
+
+div.choosepricerange_container{
+    height:150px;
+    width:500px;
+    border:1px solid transparent;
+    float:right;
+    margin-top:-152px;
+}
+
+select.chooseprice_selection{
+    height:50px;
+    width:400px;
+    font-size:25px;
+    color:black;
+}
+
+label.pricerange{
+    font-size:25px;
+}
+
+div.miltstat_container{
+    height:150px;
+    width:700px;
+    border:1px solid transparent;
+    margin-top:20px;
+}
+
+label.militstat_lab{
+    font-size:25px;
+}
+
+select.militstat_select{
+    height:50px;
+    width:400px;
+    font-size:25px;
+    color:black;
+}
+
+div.downpayment_contianer{
+    height:150px;
+    width:500px;
+    border:1px solid transparent;
+    margin-top:-152px;
+    float:right;
+}
+
+label.mexdown_lab{
+    font-size:25px;
+}
+
+select.downpay_selection{
+    height:50px;
+    width:400px;
+    font-size:25px;
+    color:black;
+}
+
+h3.message_heading{
+    font-size: 30px;
+    text-align:center;
+}
+
+textarea.custmessagebox{
+    resize:none;
+    height:300px;
+    width:1000px;
+    border:2px solid black;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input.submitbutton{
+    height:100px;
+    width:200px;
+    background-color:lightgreen;
+    color:black;
+    font-size:35px;
+    text-align:center;
+    border:2px solid black;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:50px;
+    transition:0.5s;
+}
+
+input.submitbutton:hover{
+    background-color:rgb(81, 209, 81);
+    cursor:pointer;
+}
+
+div.medialinks_slide_container{
+    height:0;
+    width:150px;
+    background-color:black;
+    float:right;
+    margin-left:1050px;
+    margin-top:-10px;
+    position:absolute;
+    text-align:center;
+    overflow-y:hidden;
+    transition:0.5s;
+}
+
+a.fb_link{
+    color:white;
+    font-size:25px;
+    text-align:center;
+    text-underline-offset:5px;
+    transition:0.5s;
+}
+
+a.fb_link:hover{
+    opacity:80%;
+}
+
+a.ig_link{
+    color:white;
+    font-size:25px;
+    text-align:center;
+    text-underline-offset:5px;
+    transition:0.5s;
+}
+
+a.ig_link:hover{
+    opacity:80%;
+}
+
+div.mobilemenu_main_container{
+    height:200px;
+    width:auto;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:none;
+}
+
+button.mobileslidedownbutton{
+    height:175px;
+    width:400px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    background-color:transparent;
+}
+
+button.mobileslideupbutton{
+    height:175px;
+    width:400px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:none;
+    background-color:transparent;
+}
+
+img.downarrowimg{
+    height:150px;
+    width:150px;
+}
+
+img.uparrowimg{
+    height:150px;
+    width:150px;
+}
+
+div.mobile_slide_main_menu_container{
+    height:0;
+    width:auto;
+    background-color:black;
+    overflow-y:hidden;
+    position:relative;
+    transition:0.5s;
+}
+
+div.mobile_home_link_container{
+    height:100px;
+    width:300px;
+    border:1px solid transparent;
+    margin-top:50px;
+     margin-right:auto;
+    margin-left:auto;
+    display:block;
+    text-align:center;
+}
+
+a.mobile_home_link{
+    font-size:50px;
+    color:white;
+    text-align:center;
+}
+
+div.mobile_listings_link_container{
+    height:100px;
+    width:300px;
+    border:1px solid transparent;
+    margin-top:50px;
+     margin-right:auto;
+    margin-left:auto;
+    display:block;
+    text-align:center;
+}
+
+a.mobile_listings_link{
+    font-size:50px;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+}
+
+div.mobile_contactme_link{
+    height:100px;
+    width:400px;
+    border:1px solid transparent;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    text-align:center;
+}
+
+a.mobile_contactme_link{
+    font-size:50px;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+}
+
+div.socialmedia_links_container{
+    height:400px;
+    width:400px;
+    border:1px solid transparent;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    text-align:center;
+}
+
+img.insta_mob_ico{
+    height:125px;
+    width:125px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+img.fb_mobile_icon{
+    height:125px;
+    width:125px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+a.mobile_home_link{
+    text-decoration: none;
+}
+
+@media (max-width:1850px){
+    #main_form_outer_container_alt{
+        width:1400px;
+    }
+}
+
+@media (max-width:1550px){
+    #main_form_outer_container_alt{
+        width:1150px;
+        height:2200px;
+    }
+}
+
+@media (max-width:1550px){
+    #contactformheadingcontainer_alt{
+        width:950px;
+    }
+}
+
+@media (max-width:1550px){
+    #main_contact_content_container_alt{
+        height:2800px;
+    }
+}
+
+@media (max-width:1550px){
+    #contactformheadingcontainer_alt{
+        width:1200px;
+    }
+}
+
+@media(max-width:1275px){
+    #inner_header_container_alt{
+    width:auto;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media(max-width:1275px){
+    #main_name_heading_alt{
+    text-align: center;
+    font-size:45px;
+    }
+}
+
+@media(max-width:1275px){
+    #main_headingname_container_alt{
+    width:700px;
+    margin-right:auto;
+    margin-left:200px;
+    display: block;
+    float:left;
+    }
+}
+
+
+
+@media (max-width:1550px){
+    #fname_container_alt{
+        margin-right:auto;
+        margin-left: auto;
+        display: block;
+    }
+}
+
+@media (max-width:1550px){
+    #lname_container_alt{
+        margin-top:10px;
+        margin-right:auto;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1550px){
+    #phonenumber_container_alt{
+    margin-top:10px;
+    margin-right:325px;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1550px){
+    #email_container_alt{
+    margin-top:190px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1550px){
+    #cartype_container_alt{
+    margin-top:30px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1550px){
+    #choosecar_selection_alt{
+    margin-top:10px;
+    margin-right:auto;
+    margin-left: 5px;
+    display: block;
+    }
+}
+
+@media (max-width:1550px){
+    #choosepricerange_container_alt{
+    margin-top:30px;
+    margin-right:325px;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1550px){
+    #miltstat_container_alt{
+    margin-top:170px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    margin-right:150px;
+    }
+}
+
+@media (max-width:1550px){
+    #miltstat_container_alt{
+    margin-top:220px;
+    margin-right:auto;
+    margin-left: 325px;
+    display: block;
+    }
+}
+
+@media (max-width:1550px){
+    #downpayment_contianer_alt{
+    margin-top:70px;
+    margin-right:325px;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1550px){
+    #message_heading_alt{
+    margin-top:300px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1550px){
+    #custmessagebox_alt{
+    margin-top:70px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1200px){
+    #main_form_outer_container_alt{
+        margin-top:100px;
+    }
+}
+
+@media (max-width:1200px){
+    #contactformheadingcontainer_alt{
+        width:800px;
+    }
+}
+
+@media (max-width:1200px){
+    #main_form_outer_container_alt{
+        width:800px;
+    }
+}
+
+@media (max-width:1200px){
+    #custmessagebox_alt{
+        width:800px;
+    }
+}
+
+@media (max-width:1200px){
+    #main_home_header_container_alt{
+        height:400px;
+    }
+}
+
+@media (max-width:1200px){
+    #menu_selection_container_alt{
+        display:none;
+    }
+}
+
+@media (max-width:1200px){
+    #mobilemenu_main_container_alt{
+        display:block;
+    }
+}
+
+@media (max-width:1200px){
+    #home_intro_para_alt{
+        font-size:35px;
+    }
+}
+
+@media (max-width:1200px){
+    #introduction_home_container_alt{
+        height:900px;
+    }
+}
+
+@media (max-width:1200px){
+    #phonenumalt{
+        font-size:35px;
+    }
+}
+
+@media (max-width:1200px){
+    #announ_heading_alt{
+        font-size:50px;
+    }
+}
+
+@media (max-width:1200px){
+    #main_homecontent_container_alt{
+        height:4300px;
+    }
+}
+
+@media (max-width:1200px){
+    #main_contact_content_container_alt{
+        height:3200px;
+    }
+}
+
+@media (max-width:1200px){
+    #main_form_outer_container_alt{
+        height:2500px;
+        border:1px solid transparent;
+    }
+}
+
+@media (max-width:1200px){
+    #fname_lab_alt,#lname_lab_alt,#phone_lab_alt,#email_label_alt,#cartype_lab_alt,#pricerange_alt,#militstat_lab_alt,#mexdown_lab_alt#custmessagebox_alt,#mexdown_lab_alt{
+        font-size:40px;
+    }
+}
+
+@media (max-width:1200px){
+    #fname_container_alt,#lname_container_alt,#phonenumber_container_alt,#email_container_alt,#cartype_container_alt,#choosepricerange_container_alt,#miltstat_container_alt,#downpayment_contianer_alt{
+        height:200px
+    }
+}
+
+@media (max-width:1200px){
+    #fname_in_alt,#lname_in_alt,#email_in_alt,#choosecar_selection_alt,#chooseprice_selection_alt,#militstat_select_alt,#downpay_selection_alt{
+        height:50px;
+        font-size:40px;
+    }
+}
+
+@media (max-width:1200px){
+    #phone_in_alt{
+        height:50px;
+        font-size:40px;
+        width:400px;
+    }
+}
+
+
+@media (max-width:1200px){
+    #message_heading_alt{
+        font-size:40px;
+    }
+}
+
+@media (max-width:1200px){
+    #fname_container_alt{
+        margin-right:auto;
+        margin-left: auto;
+        display: block;
+    }
+}
+
+@media (max-width:1200px){
+    #lname_container_alt{
+        margin-top:10px;
+        margin-right:auto;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1200px){
+    #phonenumber_container_alt{
+    margin-top:10px;
+    margin-right:150px;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1200px){
+    #email_container_alt{
+    margin-top:190px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1200px){
+    #cartype_container_alt{
+    margin-top:30px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1200px){
+    #choosecar_selection_alt{
+    margin-top:10px;
+    margin-right:auto;
+    margin-left: 5px;
+    display: block;
+    }
+}
+
+@media (max-width:1200px){
+    #choosepricerange_container_alt{
+    margin-top:30px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    margin-right:150px;
+    }
+}
+
+@media (max-width:1200px){
+    #miltstat_container_alt{
+    margin-top:170px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    margin-right:150px;
+    }
+}
+
+@media (max-width:1200px){
+    #miltstat_container_alt{
+    margin-top:220px;
+    margin-right:auto;
+    margin-left: 150px;
+    display: block;
+    }
+}
+
+@media (max-width:1200px){
+    #downpayment_contianer_alt{
+    margin-top:70px;
+    margin-right:150px;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1200px){
+    #message_heading_alt{
+    margin-top:300px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:1200px){
+    #custmessagebox_alt{
+    margin-top:70px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:950px){
+    #main_headingname_container_alt{
+    width:600px;
+    }
+}
+
+@media (max-width:950px){
+    #miltstat_container_alt{
+    width:600px;
+    }
+}
+
+@media (max-width:950px){
+    #custmessagebox_alt{
+    width:600px;
+    }
+}
+
+@media (max-width:950px){
+    #main_form_outer_container_alt{
+    width:600px;
+    }
+}
+
+@media (max-width:950px){
+    #phonenumber_container_alt,#choosepricerange_container_alt,#miltstat_container_alt,#downpayment_contianer_alt{
+    margin-right:50px;
+    margin-left: auto;
+    display: block;
+    }
+}
+
+@media (max-width:875px){
+    #contactformheadingcontainer_alt{
+        width:500px;
+    }
+}
+
+@media (max-width:875px){
+    #page_ref_button_alt,#home_main_log_alt{
+        height:150px;
+        width:150px;
+    }
+}
+
+@media (max-width:875px){
+    #main_headingname_container_alt{
+        width:400px;
+    }
+}
+
+@media (max-width: 1400px) {
+    #home_main_log_alt {
+        height: 150px;
+        width: 150px;
+    }
+}

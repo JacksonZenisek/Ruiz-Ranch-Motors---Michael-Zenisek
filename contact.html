@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ruiz Ranch Motors: Michael Zenisek</title>
+        <link rel="icon" type="image/x-icon" href="images/rrmpageicon.ico">
+        <link rel="stylesheet" href="rrmmichaelcontactstyles.css">
+        <script src="rrmmichaelactions.js"></script>
+        <meta name="developer" content="Jackson Zenisek">
+        <meta name="charset" content="UTF-8">
+    </head>
+    <body class="main_home_body" id="main_home_body_alt">
+        <header class="main_home_header_container" id="main_home_header_container_alt">
+            <div class="inner_header_container" id="inner_header_container_alt">
+                <div class="main_headinglog_container" id="main_headinglog_container_alt">
+                    <button class="page_ref_button" id="page_ref_button_alt" onclick="gotohomepage()"><img src="images/rrmmainpic.png" class="home_main_log" id="home_main_log_alt"></button>
+                </div>
+                <div class="main_headingname_container" id="main_headingname_container_alt">
+                    <h1 class="main_name_heading" id="main_name_heading_alt">Michael Zenisek - Salesman</h1>
+                </div>
+            </div>
+            <div class="menu_selection_container" id="menu_selection_container_alt">
+                <button class="home_button" id="home_button_alt" onclick="gotohomepage()">Home</button>
+                <button class="listings_button" id="listings_button_alt" onclick="gotolistingspage()">Listings</button>
+                <button class="contactme_button" id="contactme_button_alt" onclick="gotocontactmepage()">Contact Me</button>
+                <button class="links_button" id="links_button_alt" onmouseover="showlinksslidemenu()" onmouseout="hidelinksslidemenu()">Links</button>
+                <div class="medialinks_slide_container" id="medialinks_slide_container_alt" onmouseover="showlinksslidemenu()" onmouseout="hidelinksslidemenu()">
+                    <br>
+                    <a href="https://www.facebook.com/michael.zenisek.2025" class="fb_link" id="fb_link_alt">Facebook</a>
+                    <br>
+                        <br>
+                            <br>
+                    <a href="https://www.instagram.com/mike.gotwhip/" class="ig_link" id="ig_link_alt">Instagram</a>
+                </div>
+            </div>
+            <div class="mobilemenu_main_container" id="mobilemenu_main_container_alt">
+                <button class="mobileslidedownbutton" id="mobileslidedownbutton_alt" onclick="showmobileslidemenu(),hideuparrowbutton()">
+                    <img class="uparrowimg" id="uparrowimg_alt" src="images/downarrowandup.png">
+                </button>
+                 <button class="mobileslideupbutton" id="mobileslideupbutton_alt" onclick="showuparrowbutton(),hidemobileslidemenu()">
+                    <img class="downarrowimg" id="downarrowimg_alt" src="images/downarrowandupupsidedown.png">
+                </button>
+                <div class="mobile_slide_main_menu_container" id="mobile_slide_main_menu_container_alt">
+                    <br>
+                        <br>
+                    <div class="mobile_home_link_container" id="mobile_home_link_container_alt">
+                        <br>
+                        <a class="mobile_home_link" id="mobile_home_link_alt" href="index.html">Home</a>
+                    </div>
+                    <br>
+                        <br>
+                    <div class="mobile_listings_link_container" id="mobile_listings_link_container_alt">
+                        <br>
+                        <a href="listings.html" class="mobile_listings_link" id="mobile_listings_link_alt">Listings</a>
+                    </div>
+                    <br>
+                        <br>
+                    <div class="mobile_contactme_link" id="mobile_contactme_link_alt">
+                        <br>
+                        <a href="contact.html" class="mobile_contactme_link" id="mobile_contactme_link_alt">Contact Me</a>
+                    </div>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                                    <br>
+                    <div class="socialmedia_links_container" id="socialmedia_links_container_alt">
+                        <a href="https://www.instagram.com/mike.gotwhip/"><img class="insta_mob_ico" id="insta_mob_ico_alt" src="images/instaicon.png"></a>
+                        <br>
+                            <br>
+                                <br>
+                                    <br>
+                                        <br>
+                                            <br>
+                        <a href="https://www.facebook.com/michael.zenisek.2025"><img class="fb_mobile_icon" id="fb_mobile_icon_alt" src="images/facebookico.png"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <br>
+            <br>
+        <div class="main_contact_content_container" id="main_contact_content_container_alt">
+            <div class="contactformheadingcontainer" id="contactformheadingcontainer_alt">
+                <h3 class="contactformheading" id="contactformheadingalt">Send me a message, and I'll get back to you ASAP!</h3>
+            </div>
+            <br>
+                <br>
+            <div class="main_form_outer_container" id="main_form_outer_container_alt">
+                <form class="cust_form" id="cust_form_alt" enctype="multipart/form-data" method="POST" action="https://formspree.io/f/mzddezwy">
+                    <div class="fname_container" id="fname_container_alt">
+                        <label class="fname_lab" id="fname_lab_alt">First Name:</label>
+                        <br>
+                            <br>
+                        <input name="firstname" type="text" class="fname_in" id="fname_in_alt" required>
+                    </div>
+                    <div class="lname_container" id="lname_container_alt">
+                        <label class="lname_lab" id="lname_lab_alt">Last Name:</label>
+                        <br>
+                            <br>
+                        <input name="lastname" type="text" class="lname_in" id="lname_in_alt" required>
+                        <br>
+                            <br>
+                    </div>
+                    <div class="phonenumber_container" id="phonenumber_container_alt" required>
+                        <label class="phone_lab" id="phone_lab_alt">Phone Number:</label>
+                        <br>
+                            <br>
+                        <input name="phone" type="tel" class="phone_in" id="phone_in_alt" maxlength="12" minlength="12" required>
+                        <br>
+                            <br>
+                    </div>
+                    <div class="email_container" id="email_container_alt" required>
+                        <label class="email_label" id="email_label_alt">Email:</label>
+                        <br>
+                            <br>
+                        <input name="email" type="email" class="email_in" id="email_in_alt" required>
+                    </div>
+                    <div class="cartype_container" id="cartype_container_alt">
+                        <label class="cartype_lab" id="cartype_lab_alt">Vehicle Type:</label>
+                        <br>
+                            <br>
+                        <select name="cartype" class="choosecar_selection" id="choosecar_selection_alt" required>
+                            <option value="Select Car Type">--Select Car Type--</option>
+                            <option value="Sedan">Sedan</option>
+                            <option value="SUV">SUV</option>
+                            <option value="Hatchback">Hatchback</option>
+                            <option value="Sports Car">Sports Car</option>
+                            <option value="Truck">Truck</option>
+                            <option value="Convertible">Convertible</option>
+                        </select>
+                    </div>
+                    <div class="choosepricerange_container" id="choosepricerange_container_alt">
+                        <label class="pricerange" id="pricerange_alt">Max Price:</label>
+                        <br>
+                            <br>
+                        <select class="chooseprice_selection" id="chooseprice_selection_alt" required>
+                            <option>--Select Your Budget--</option>
+                            <option value="$5,000">$5,000</option>
+                            <option value="$10,000">$10,000</option>
+                            <option value="$15,000">$15,000</option>
+                            <option value="$20,000">$20,000</option>
+                            <option value="$30,000">$30,000</option>
+                            <option value="$40,000">$40,000</option>
+                            <option value="$50,000+">$50,000+</option>
+                        </select>
+                    </div>
+                   <div class="miltstat_container" id="miltstat_container_alt">
+                    <label class="militstat_lab" id="militstat_lab_alt">Are you currently serving active duty military or are a veteran?:</label>
+                    <br>
+                        <br>
+                        <select name="militarystatus" class="militstat_select" id="militstat_select_alt">
+                            <option>--Select--</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    <div class="downpayment_contianer" id="downpayment_contianer_alt">
+                        <label class="mexdown_lab" id="mexdown_lab_alt">Max Monthly Payment:</label>
+                        <br>
+                            <br>
+                        <select name="downpayment" class="downpay_selection" id="downpay_selection_alt">
+                            <option>--Select--</option>
+                            <option value="$200-$400">$200-$400</option>
+                            <option value="$400-$600">$400-$600</option>
+                            <option value="$600-$800">$600-$800</option>
+                            <option value="$800-$1000">$800-$1000</option>
+                        </select>
+                    </div>
+                    <h3 class="message_heading" id="message_heading_alt">Message (optional):</h3>
+                    <textarea name="message" type="text" class="custmessagebox" id="custmessagebox_alt"></textarea>
+                    <br>
+                    <input type="submit" class="submitbutton" id="submitbutton_alt" value="Submit">
+                </form>
+            </div>
+        </div>
+
+
+         <footer class="all_pages_footer" id="all_pages_footer_alt">
+            <div class="footer_info_container" id="footer_info_container_alt">
+                     <p class="footer_info_para" id="footer_info_para_alt">&copy;Ruiz Ranch Motors Michael Zenisek<br><br>Developed by Jackson Zenisek</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+<script>
+    const phoneInput = document.getElementById("phone_in_alt");
+
+phoneInput.addEventListener("input", (e) => {
+  let value = e.target.value.replace(/\D/g, "");
+
+  // add dashes as user types
+  if (value.length > 3 && value.length <= 6)
+    value = `${value.slice(0,3)}-${value.slice(3)}`;
+  else if (value.length > 6)
+    value = `${value.slice(0,3)}-${value.slice(3,6)}-${value.slice(6,10)}`;
+
+  e.target.value = value;
+});
+</script>

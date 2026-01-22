@@ -1,0 +1,478 @@
+h3.admin_con_heading{
+    font-size:50px;
+    text-align:center;
+}
+
+p.console_time{
+    font-size:50px;
+    text-align:center;
+}
+
+div.option_selection_container{
+    height:800px;
+    width:600px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:200px;
+}
+
+button.calbutt{
+    height:125px;
+    width:400px;
+    border:1px solid black;
+    background-color:lightblue;
+    color:black;
+    border-radius:20px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    font-size:30px;
+    transition:0.5s;
+}
+
+button.calbutt:hover{
+    cursor:pointer;
+    background-color:rgb(203, 226, 235);
+}
+
+button.caabutt{
+    height:125px;
+    width:400px;
+    border:1px solid black;
+    background-color:lightblue;
+    color:black;
+    border-radius:20px;
+    margin-top:100px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    font-size:30px;
+    transition:0.5s;
+}
+
+button.caabutt:hover{
+    cursor:pointer;
+    background-color:rgb(203, 226, 235);
+}
+
+div.create_a_listing_container{
+    height:1800px;
+    width:1200px;
+    border:1px solid transparent;
+     margin-right:auto;
+    margin-left:auto;
+    display:none;
+}
+
+button.cal_backb{
+    height:100px;
+    width:150px;
+    background-color:lightblue;
+    color:black;
+    font-size: 30px;
+    border-radius:20px;
+    transition:0.5s;
+}
+
+button.cal_backb:hover{
+    cursor:pointer;
+    background-color:rgb(203, 226, 235);
+}
+
+button.caldeletebutt{
+    height:100px;
+    width:400px;
+    background-color:rgb(230, 173, 173);
+    color:black;
+    font-size: 30px;
+    border-radius:20px;
+    transition:0.5s;
+    margin-top:100px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+button.caldeletebutt:hover{
+    cursor:pointer;
+    background-color:rgb(233, 194, 194);
+}
+
+div.cal_contect_main_container{
+    height:1400px;
+    width:700px;
+    background-color:rgb(228, 228, 228);
+    border:3px solid black;
+    border-radius:10px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+input.uploadpic_butt{
+    margin-top:100px;
+    font-size:20px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.v_make_and_mod_container{
+    height:100px;
+    width:500px;
+    border:1px solid transparent;
+    margin-top:25px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+label.make_and_mod_lab{
+    font-size:25px;
+}
+
+input.m_and_v_box{
+    height:30px;
+    width:500px;
+    font-size:30px;
+}
+
+div.v_price_container{
+    height:100px;
+    width:500px;
+    border:1px solid transparent;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+label.make_and_mod_price_lab{
+    font-size:25px;
+}
+
+input.price_listing_selection{
+    height:30px;
+    width:500px;
+    font-size:30px;
+    color:black;
+
+}
+
+div.cal_desc_container{
+    height:300px;
+    width:500px;
+    border:1px solid transparent;
+    margin-top:10px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+label.desc_lab{
+    font-size:25px;
+}
+
+textarea.cal_desc_input_box{
+    height:200px;
+    width:500px;
+    border:1px solid black;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    font-size:25px;
+    resize:none;
+}
+
+input.cal_sub_button{
+    height:75px;
+    width:125px;
+    background-color:rgb(146, 233, 146);
+    color:black;
+    font-size:30px;
+    text-align:center;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition:0.5s;
+}
+
+input.cal_sub_button:hover{
+    cursor:pointer;
+    background-color:rgb(194, 235, 194);
+}
+
+div.picture_prev_contianer{
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-right:auto;
+    margin-left:auto;
+    overflow:hidden;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+div.picture_prev_contianer img {
+    height:100%;
+    width:100%;
+    object-fit:contain;
+}
+
+div.caa_outermain_container{
+    height:1400px;
+    width:1000px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:none;
+}
+
+div.caa_date_container{
+    height:100px;
+    width:500px;
+    border:1px solid transparent;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+label.date_lab{
+    font-size:40px;
+}
+
+input.caa_uinput_date_box{
+    height:30px;
+    width:400px;
+    font-size:30px;
+    color:black;
+}
+
+div.subject_main_container{
+    height:150px;
+    width:500px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+label.subject_lab{
+    font-size:40px;
+}
+
+input.caa_input_sub_box{
+    height:30px;
+    width:500px;
+    font-size:30px;
+}
+
+div.message_main_container{
+    height:600px;
+    width:850px;
+    border:1px solid transparent;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+label.mess_lab{
+    font-size:40px;
+}
+
+textarea.caa_message_box{
+    height:500px;
+    width:850px;
+    border:3px solid black;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    resize:none;
+    font-size:30px;
+}
+
+input.caa_sub_butt{
+    height:75px;
+    width:125px;
+    background-color:rgb(146, 233, 146);
+    color:black;
+    font-size:30px;
+    text-align:center;
+    margin-top:200px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition:0.5s;
+}
+
+input.caa_sub_butt:hover{
+    cursor:pointer;
+    background-color:rgb(194, 235, 194);
+}
+
+div.dal_main_container{
+    height:800px;
+    width:1000px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:none;
+}
+
+h3.choose_listing_heading{
+    text-align:center;
+    font-size:40px;
+}
+
+div.delete_main_container{
+    height:200px;
+    border:3px solid black;
+}
+
+p.dal_nolifound{
+    font-size:30px;
+    text-align:center;
+}
+
+form.form_outer_container{
+    height:200px;
+    width:600px;
+    border:1px solid black;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+button.del_dal_button{
+    height:50px;
+    width:125px;
+    border:1px solid black;
+    border-radius:10px;
+    background-color:rgb(233, 120, 120);
+    font-size:25px;
+    color:black;
+    transition:0.5s;
+}
+
+button.del_dal_button:hover{
+    background-color:rgb(238, 145, 145);
+    cursor:pointer;
+}
+
+strong.dal_listing_title{
+    font-size:30px;
+}
+
+div.dal_id_numb{
+    font-size:20px;
+}
+
+button.dal_back_butt{
+    height:100px;
+    width:150px;
+    background-color:lightblue;
+    color:black;
+    font-size: 30px;
+    border-radius:20px;
+    transition:0.5s;
+}
+
+button.dal_back_butt:hover{
+    cursor:pointer;
+    background-color:rgb(203, 226, 235);
+}
+
+div.milage_main_container{
+    height:100px;
+    width:500px;
+    border:1px solid transparent;
+    margin-top:100px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+label.milage_lab{
+    font-size:25px;
+}
+
+input.milage_listing_input_box{
+    height:30px;
+    width:500px;
+    font-size:30px;
+    color:black;
+}
+
+a.formsp_link{
+    font-size:30px;
+    color:black;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:75px;
+    transition:0.5s
+}
+
+a.formsp_link:hover{
+    cursor:pointer;
+    color:rgb(94, 94, 94);
+}
+
+
+h2.ad_log_heading{
+    font-size:40px;
+}
+
+input.login_in{
+    width:200px;
+    font-size:20px;
+}
+
+button.login_but{
+    margin-top:20px;
+    width:200px;
+    font-size:20px;
+}
+
+@media (Max-width:1400px){
+    #create_a_listing_container_alt{
+        width:700px;
+    }
+}
+
+@media (Max-width:1400px){
+    #caa_outermain_container_alt{
+        width:800px;
+    }
+}
+
+@media (Max-width:1400px){
+    #message_main_container_alt{
+        width:700px;
+    }
+}
+
+@media (Max-width:1400px){
+    #caa_message_box_alt{
+        width:700px;
+    }
+}
+
+@media (Max-width:1400px){
+    #caa_input_sub_box_alt{
+        border:2px solid black;
+    }
+}
+
+@media (max-width:1400px){
+    #dal_main_container_alt{
+        width:700px;
+    }
+}
